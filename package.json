@@ -1,0 +1,20 @@
+{
+  "name": "e-agent",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=e-agent:* node --use_strict ./bin/run",
+    "test": "DEBUG=e-agent:* node simulator.js"
+  },
+  "dependencies": {
+    "debug": "^2.6.9",
+    "mqtt": "^2.17.0",
+    "node-mi-flora": "^0.1.1",
+    "noble": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.univ-lr.fr:fcadet01/cuculus.git"
+  },
+  "author": "Team-1"
+}

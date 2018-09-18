@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+var debug = require('debug')('e-agent:run');
+
+var app = require('../app');
+
+app.run();

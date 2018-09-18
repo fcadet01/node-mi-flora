@@ -1,0 +1,14 @@
+{
+	"apps": [{
+		"name": "e-agent",
+		"script": "bin/run",
+		"watch": true,
+		"env": {
+			"DEBUG": "e-agent:*",
+			"NODE_ENV": "development"
+		},
+		"env_production": {
+			"NODE_ENV": "production"
+		}
+	}]
+}
